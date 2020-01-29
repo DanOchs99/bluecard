@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="bluecard.PageTwoToPrint"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:bluecard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="PrintableArea" Width="700" Height="350">
+        <Canvas Name="page2Layout" HorizontalAlignment="Left" VerticalAlignment="Top" Height="350" Width="700">
+            <TextBlock Name="MB_2_1" Text="Citizenship in the Community"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="38,49" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="ScoutName_2_2" Text="Joe Scout"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="281,44" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="MB_2_2" Text="Citizenship in the Community"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="268,115" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="ScoutName_2_3" Text="Joe Scout"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="530,43" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="Check_2_3" Text="X"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI" FontWeight="Bold"
+                   Margin="482,83" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="UnitNo_2_3" Text="599"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="595,98" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+            <TextBlock Name="MB_2_3" Text="Citizenship in the Community"
+                   Foreground="Black" FontSize="12" TextAlignment="Left" FontFamily="Segoe UI"
+                   Margin="500,151" Canvas.ZIndex="2" Visibility="Visible">
+            </TextBlock>
+        </Canvas>
+    </Grid>
+</Page>
